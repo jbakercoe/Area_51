@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5f4064ed77f4e7da3009cf0c303c82, type: 3}
+  m_Name: Fog_Underwater_01
+  m_EditorClassIdentifier: 
+  effectType: 4
+  enableDithering: 0
+  ditherStrength: 0.03
+  alpha: 0.93
+  noiseStrength: 0.5
+  noiseScale: 0.1
+  distance: 0.008
+  distanceFallOff: 2
+  maxDistance: 0.999
+  maxDistanceFallOff: 0
+  height: 36
+  maxHeight: 100
+  heightFallOff: 0.8
+  baselineHeight: 2
+  clipUnderBaseline: 0
+  turbulence: 0.1
+  speed: 0.1
+  windDirection: {x: 1, y: 0, z: 1}
+  color: {r: 0, g: 0.53203946, b: 0.75735295, a: 0.978}
+  color2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  skyHaze: 50
+  skySpeed: 0.3
+  skyNoiseStrength: 0.1
+  skyAlpha: 1
+  useXZDistance: 0
+  scattering: 0.633
+  scatteringColor: {r: 1, g: 1, b: 1, a: 1}
