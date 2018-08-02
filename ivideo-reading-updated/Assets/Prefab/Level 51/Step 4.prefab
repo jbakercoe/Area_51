@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1194594786346502}
+  m_IsPrefabParent: 1
+--- !u!1 &1194594786346502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4453965865954102}
+  - component: {fileID: 114963923133120274}
+  m_Layer: 0
+  m_Name: Step 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4453965865954102
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194594786346502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114963923133120274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194594786346502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850edc83a574d61488b9a0be566abb8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partialWords:
+  - {fileID: 1754655983284534, guid: 41d35e8855676cd42b6b2f81cd48876c, type: 2}
+  - {fileID: 1003070918810192, guid: 8f8a79df95bfc724ab76d329de9983da, type: 2}
+  - {fileID: 1380640830248880, guid: 8dbde4399e2bfc342831ca12bc9e0e9a, type: 2}
+  - {fileID: 1426567151783254, guid: ac522042578d38140b40b439c9a4c6a9, type: 2}
+  - {fileID: 1252256615470414, guid: 46fd4cd4b30ef0e40b5578d369a62de8, type: 2}
+  soundPrefab: {fileID: 1809180420698668, guid: 34659009f3686dd46a1c7f50bd60bb7d,
+    type: 2}
+  dialoguePlayer: {fileID: 0}
+  instructionClip: {fileID: 8300000, guid: 04cb690c95e654f4d99c0a5265a3259e, type: 3}
